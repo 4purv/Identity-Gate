@@ -4,6 +4,8 @@
 A real-time face recognition system that controls physical gate access using deep learning, with remote approval via an installable Android PWA and Arduino-based servo gate control.
 
 ---
+### These are just the Script files, if you want to run the whole system without any hassle kindly download from the drive link:
+
 
 ## What it does
 
