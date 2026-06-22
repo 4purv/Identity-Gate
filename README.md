@@ -4,8 +4,9 @@
 A real-time face recognition system that controls physical gate access using deep learning, with remote approval via an installable Android PWA and Arduino-based servo gate control.
 
 ---
-### These are just the Script files, if you want to run the whole system without any hassle kindly download from the drive link:
+### These are just the Script files, if you want to run the whole system without any hassle kindly download from the drive link:https://drive.google.com/drive/folders/1Vq1sykqmeJdYUm8tlvz3aYzORjgTmsw9?usp=sharing
 
+## I did take help of Claude for understanding the code (you'll realise it when you'll see those comments) but most of the debugging and functions were fixed and created by me (so NO this is not AI slop 😛)
 
 ## What it does
 
@@ -269,7 +270,7 @@ python run_system.py
 ╚══════════════════════════════════════════╝
 
 ==================================================
-  PWA URL : https://xxxx.ngrok-free.app
+  PWA URL : https://biauricular-suspectless-annie.ngrok-free.dev/
   Open on Android → Install → Enable notifications
 ==================================================
 
@@ -445,30 +446,3 @@ requests
 pillow
 ```
 
-Install all at once:
-
-```bash
-python -m pip install tensorflow deepface tf-keras opencv-python numpy ultralytics flask pywebpush cryptography pyngrok pyserial requests pillow
-```
-
----
-
-## Team
-
-| Name | Role |
-|---|---|
-| Apurv Badhe | AI pipeline — YOLOv8 + FaceNet + threading |
-| Arpit | Notification system — Web Push + VAPID |
-| Anushree | Flask backend + PWA architecture |
-| Aqdas | Arduino gate control + serial communication |
-| Anushka | Whitelist management + system demo |
-
-**Guide:** Prof. Vikas Nandeshwar  
-**Institution:** Vishwakarma Institute of Technology, Pune  
-**Department:** Engineering, Sciences and Humanities (DESH)
-
----
-
-## License
-
-This project was developed as a final-year engineering project at Vishwakarma Institute of Technology, Pune (2025–26). All rights reserved.
